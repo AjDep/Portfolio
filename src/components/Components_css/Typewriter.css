@@ -1,0 +1,9 @@
+.Type{
+    max-width:35em ;
+    min-width:30em;
+    color: rgba(255, 255, 255, 0.735);
+    font-family: "Montserrat", sans-serif;
+}
+.text{
+    /* color:aqua */
+}

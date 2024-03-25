@@ -1,0 +1,73 @@
+.button {
+
+    border: none;
+    border-radius: 10px;
+  
+    animation: sway 2s infinite alternate;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 500px;
+    transition: transform 0.5s, box-shadow 0.5s;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.324),
+                -15px -15px 30px rgba(60, 60, 60, 0.272);
+  }
+  
+  .button:hover {
+    transform: rotate(-360deg);
+    box-shadow: 0 0 20px 0 rgba(192, 192, 192, 0.5);
+    /* -webkit-box-shadow: 0px 0px 116px 22px rgba(255,255,255,0.26);
+-moz-box-shadow: 0px 0px 116px 22px rgba(255,255,255,0.26);
+box-shadow: 0px 0px 116px 22px rgba(255,255,255,0.26); */
+  }
+  
+  @keyframes grow {
+    0% {
+      transform: scale(1);
+    }
+  
+    100% {
+      transform: scale(10);
+    }
+  }
+  
+  @keyframes glow {
+    0% {
+      text-shadow: gold 1px 1px 1px;
+    }
+  
+    100% {
+      text-shadow: gold 0 0 10px gold;
+    }
+  }
+  
+  .icon {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.6));
+    transition: transform 0.5s;
+  }
+  
+  .icon:hover {
+    transform: scale(1.5);
+    filter: drop-shadow(1px 2px 4px rgba(0,0,0,0.9))
+  }
+  
+  .follow-text {
+    color: white;
+    position: relative;
+    top: 3em;
+    left: -4em;
+    transition: transform 0.5s;
+  }
+  
+  .follow-text:hover {
+    transform: scale(1.2);
+    color: rgba(31,81,255,100);
+    filter: drop-shadow(2px 2px 4px rgba(31,81,255,2.0))
+  }
+.ins:hover{
+   
+    scale: 1.1;
+}

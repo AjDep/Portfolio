@@ -1,0 +1,30 @@
+.navbarbtn{
+    
+    color:white;
+    padding:15px;
+   
+    text-decoration: none;
+
+
+}
+.navbarbtn:HOVER{
+    color:#ADD7FE;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.305);
+
+    
+
+}
+.navbarbtns{
+    background-color: rgba(255, 255, 255, 0.598);
+    border-radius: 30px;
+    margin-bottom: 50px;
+    padding:15px;
+    width: fit-content;
+}
+@media only screen and (max-width: 731px) {
+    .navbarbtns{
+      
+      margin-bottom: 60px;
+    }
+  }

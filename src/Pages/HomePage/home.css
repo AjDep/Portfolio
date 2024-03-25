@@ -1,0 +1,85 @@
+.cardRow{
+    display: flex;
+    gap:10px;
+    background-color: #878E99;
+    justify-content:space-evenly;
+}
+
+.LadingPageLeft{
+    color:white;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.LadingPageRight{
+    display: flex;
+    align-items: flex-end;
+    background-color: #E1F0DA;
+    border-radius: 10px;
+    max-height: 500px;
+    min-width: 360px;
+    position: relative;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+    /* -webkit-box-shadow: 0px 0px 116px 22px rgba(255,255,255,0.26);
+    -moz-box-shadow: 0px 0px 116px 22px rgba(255,255,255,0.26);
+    box-shadow: 0px 0px 116px 22px rgba(255,255,255,0.26); */
+    
+}
+.infotopic{
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+}
+.myinfo{
+    max-width: 35em;
+    text-align: justify;
+    font-family: poppins;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.566);
+}
+.LandingPage{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: rgb(16, 18, 21);
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    gap:5%;
+    padding: 5%;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+}
+.Socials{
+   
+    display: flex;
+    gap:2.5%;
+}
+.cards{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:3%;
+}
+#TitleProject{
+    font-size: 60px;
+    font-family:"Montserrat", sans-serif;
+    color: #add7fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myProjects{
+    padding-top: 3%;
+    text-align: center;
+}
+.contactME{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+    padding-bottom: 20px;
+}
+#TitleProject{
+    margin-top: 100px;
+}

@@ -1,0 +1,22 @@
+.MyImage{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.Portrait{
+    max-height: 50em;
+    display: flex;
+    
+    
+}
+@media only screen and (max-width: 607px) {
+    .Portrait{
+        max-height: 45em;
+    }
+  }
+  @media only screen and (max-width: 549px) {
+    .Portrait{
+        max-height: 40em;
+    }
+  }

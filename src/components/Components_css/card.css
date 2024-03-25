@@ -1,0 +1,45 @@
+.card {
+    height: 494px;
+    min-width: 300px;
+    max-width:500px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+   }
+.card:hover{
+    scale: 1.1;
+    animation-delay: 2shh;
+    box-shadow: 15px 15px 30px rgb(174, 170, 170),
+                -15px -15px 30px rgb(60, 60, 60);
+}
+.cardimg{
+    border-radius: 20px;
+    /* display: flex; */
+    
+}
+.imgContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    height: 200px; 
+    padding: 5%;
+    margin: 5%;
+    
+}
+.Link{
+    display: flow-root;
+}
+.textContent{
+   
+    padding-bottom: 10px;
+    color:white;
+}
+.ContentPara{
+    text-align: justify;
+    margin-right: 25px;
+    margin-left: 25px;
+}
